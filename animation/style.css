@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    margin-top: 15%;
+    margin-left: 40%;
+}
+.main-div h1{
+    color: aliceblue;
+    position: relative;
+    bottom: 30px;
+    right: 45px;
+    font-weight:500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+.spiner{
+    background-color: greenyellow;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid white;
+    border-top: 20px solid rgb(14, 88, 217);
+    animation: ani 2.5s linear infinite;
+
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}
+body{
+    background-color: black;
+}
